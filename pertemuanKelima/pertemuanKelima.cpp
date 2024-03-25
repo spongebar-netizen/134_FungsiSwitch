@@ -31,7 +31,7 @@ int Pembagian(int bil_1, int bil_2) {
 
 int main()
 {
-
+    int pilihan;
 
     system("cls");
     cout << "======= Menu ======" << endl;
@@ -48,12 +48,24 @@ int main()
     {
     case 1:
         input();
-        cout << "hasil perjumlahan = " << "penjumlahan" (a, b) << endl;
+        cout << "hasil perjumlahan = " << Penjumlahan (a, b) << endl;
         system("pause");
         break;
 
     case 2:
         input();
-        cout << "hasil perngurangan = " << "pengurangan" (a, b) << endl;
+        cout << "hasil pengurangan = " << Pengurangan (a, b) << endl;
         system("pause");
         break;
+    case 3:
+        input();
+        cout << "hasil perkalian = " << Perkalian (a, b) << endl;
+        system("pause");
+        break;
+    case 4:
+        input();
+        cout << "hasil pembagian = " << Pembagian (a, b) << endl;
+        system("pause");
+        break;
+    case 5:
+        break

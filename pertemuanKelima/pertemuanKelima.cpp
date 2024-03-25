@@ -37,4 +37,7 @@ int main()
     cout << "2. Pengurangan" << endl;
     cout << "3. Perkalian" << endl;
     cout << "4. Pembagian" << endl;
+    cout << "5.Keluar" << endl;
+    cout << "Masukkan menu yang ingin dipilih (1/2/3/4/5): ";
+    cin >> pilihan;
     

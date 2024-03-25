@@ -48,6 +48,12 @@ int main()
     {
     case 1:
         input();
-        cout << "hasil perjumlahan = " << penjumlahan(a, b) << endl;
+        cout << "hasil perjumlahan = " << "penjumlahan" (a, b) << endl;
+        system("pause");
+        break;
+
+    case 2:
+        input();
+        cout << "hasil perngurangan = " << "pengurangan" (a, b) << endl;
         system("pause");
         break;

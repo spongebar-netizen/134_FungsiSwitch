@@ -33,3 +33,5 @@ int main()
 {
     system("cls");
     cout << "======= Menu ======" << endl;
+    cout << "1. Penjumlahan" << endl;
+    

@@ -32,3 +32,4 @@ int Pembagian(int bil_1, int bil_2) {
 int main()
 {
     system("cls");
+    cout << "======= Menu ======" << endl;

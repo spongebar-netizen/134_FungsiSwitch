@@ -31,6 +31,8 @@ int Pembagian(int bil_1, int bil_2) {
 
 int main()
 {
+
+
     system("cls");
     cout << "======= Menu ======" << endl;
     cout << "1. Penjumlahan" << endl;
@@ -40,4 +42,12 @@ int main()
     cout << "5.Keluar" << endl;
     cout << "Masukkan menu yang ingin dipilih (1/2/3/4/5): ";
     cin >> pilihan;
-    
+
+
+    switch (pilihan)
+    {
+    case 1:
+        input();
+        cout << "hasil perjumlahan = " << penjumlahan(a, b) << endl;
+        system("pause");
+        break;

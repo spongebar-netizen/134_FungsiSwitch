@@ -31,4 +31,4 @@ int Pembagian(int bil_1, int bil_2) {
 
 int main()
 {
-    system("cls"):
+    system("cls");
